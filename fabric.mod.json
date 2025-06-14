@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "playertracker",
+  "version": "1.0",
+  "name": "Player Tracker",
+  "description": "Shows chat messages when tracked players join or leave.",
+  "authors": [
+    "ChatGPT"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.example.playertracker.PlayerTracker"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric": "*",
+    "minecraft": "1.21"
+  }
+}
